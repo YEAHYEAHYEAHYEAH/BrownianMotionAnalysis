@@ -35,9 +35,7 @@ def plotter(file):
         coeffs.append(coeff[0])
         radii.append(const.p/(const.con*coeff[0]))
         coefferrors.append(coefferror)
-#    plot.plot(frames,rsquared)
-
-    
+        
     return frames,rsquared,coeff
 
 for file in glob.glob('/home/s1539149/Documents/Year3Experiment1/goodtracks/20/*.csv'):
@@ -68,7 +66,7 @@ for i in range(0,2200):
     x2.append(i)
 
 
-AVG.functionsman
+AVG.Plotter
 plot.plot(x,y)
 plot.show()
 plt.show()
