@@ -1,2 +1,2 @@
 # BrownianMotionAnalysis
-# This script works by using AVERAGEimport.py, an averaging function which combines the average co-ordinate of every particle frame by frame, compensating for frames where particles disappear.
+# This script works by using AVERAGEimport.py, an averaging function which combines the average co-ordinate of every particle frame by frame, compensating for frames where particles disappear. MAIN.py uses this function to use this global average and compare with track specific averages, calculating residuals and associated uncertainties using statistical models of the situation.
