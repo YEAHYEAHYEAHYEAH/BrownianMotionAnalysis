@@ -58,4 +58,4 @@ for t in averages:
 
 timelist = range(0, len(r2averages))
 
-functionsman = plot.plot(timelist,r2averages)
+Plotter = plot.plot(timelist,r2averages)
